@@ -13,8 +13,8 @@
 	+ redis 3.2.11
 	+ eureka-server
 + 运行环境
- + 64bit OS，Linux/Mac/Windows/docker
- + JDK1.8+
+   + 64bit OS，Linux/Mac/Windows/docker
+   + JDK1.8+
 
 
 ### 2、源码下载
@@ -345,9 +345,7 @@ sh start_gateway_test.sh
 
 ```
 	
-	访问地址： **http://宿主机IP:18086/**
-	
-		
+访问地址：http://宿主机IP:18086/ ，具体使用可浏览[使用指南](/docs/user_guide.md)。
 	
 ![](/docs/static_files/conf13.png)
 	
@@ -367,6 +365,7 @@ sh start_gateway_test.sh
 sh docker-run.sh  v
 
 ```
++ 目前该套Docker镜像部署配置适用于linux、unix版本的docker环境中，对于window-docker环境可能会出现：编码问题、window路径找不到等问题；如果一定要运行在window版本docker环境中，开发人员需要自行解决这些问题。
 
 	
 
